@@ -106,16 +106,14 @@ main {
 }
 
 .sitenav-list-hidden {
-    display: flex;
-    flex-direction: column;
+
     gap: 10px;
     opacity: 0;
     visibility: hidden;
     position: absolute;
     right: 0;
     position: absolute;
-    width: 153px;
-    height: 160px;
+    width: 180px;
     left: -76px;
     background: #FFFFFF;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
@@ -123,6 +121,13 @@ main {
     padding: 35px;
     transition: 0.3s;
 
+}
+.sitenav-list-hidden-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 16px;
 }
 .sitenav-list-hiddenn {
     display: flex;
@@ -162,7 +167,6 @@ main {
 
 .list-hidden-link {
     color: #686868;
-    margin-bottom: 16px;
 }
 
 .btn-ota {
@@ -225,6 +229,7 @@ main {
     font-size: 80px;
     line-height: 80px;
     margin-bottom: 48px;
+    padding-top: 108px;
 }
 
 
